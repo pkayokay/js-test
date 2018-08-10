@@ -12,4 +12,3 @@
 $('button').on('click', function() {
   $('a:contains("learn more")').addClass('learn')
 })
-

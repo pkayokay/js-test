@@ -13,4 +13,4 @@ $('button.skip').on('click', function() {
 
 
 // Here's a jsfiddle I created to test.
-// https://jsfiddle.net/pkayokay/4ehjtn18/3/#&togetherjs=G787pu2u10
+// https://codepen.io/pkayokay/pen/XBObXM?editors=1010

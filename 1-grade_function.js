@@ -21,3 +21,26 @@ function grade(n) {
     console.log(n + " is out of range")
   }
 }
+
+
+// Tests that executes the function on the array
+
+// Test "A"
+var gradeA = [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90]
+gradeA.map( n => grade(n))
+
+// Test "B"
+var gradeB = [89, 88, 87, 86, 85, 84, 83, 82, 81, 80]
+gradeB.map( n => grade(n))
+
+// Test "C"
+var gradeC = [79, 78, 77, 76, 75, 74, 73, 72]
+gradeC.map( n => grade(n))
+
+// Test "F"
+var gradeF = [71, 60, 50, 40, 30, 20, 10, 0]
+gradeF.map( n => grade(n))
+
+// Test "Out of range" and values passed on that are not numbers.
+var gradeOutofRange = ['Great', 'Poor', -1, -99, 101, 1000]
+gradeOutofRange.map( n => grade(n))

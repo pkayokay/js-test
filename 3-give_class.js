@@ -4,7 +4,7 @@
 <a href="#">learn more</a>
 <a href="#">learn more</a>
 <a href="#">learn more</a>
-<button>Add the "learn" class to anchors"</button>
+<button>Add the "learn" class to anchors</button>
 
 
 // Added an onClick event to test.

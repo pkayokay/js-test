@@ -24,6 +24,8 @@ function grade(n) {
 
 
 // Tests that executes the function on the array
+// Copy and paste unto console
+
 
 // Test "A"
 var gradeA = [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90]

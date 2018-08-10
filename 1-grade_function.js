@@ -36,8 +36,8 @@ gradeB.map( n => grade(n))
 // Test "C"
 var gradeC = [79, 78, 77, 76, 75, 74, 73, 72]
 gradeC.map( n => grade(n))
-
 // Test "F"
+
 var gradeF = [71, 60, 50, 40, 30, 20, 10, 0]
 gradeF.map( n => grade(n))
 
